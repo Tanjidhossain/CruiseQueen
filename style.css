@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background:url("images/green.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 6px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+nav ul li a:hover, a.active{
+    background-color: black;
+    border-radius: 5px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+}
+.booking-content{
+    color: #fff;
+    width: 100%;
+    float: left;
+    margin-left: 50px;
+}
+.booking-content h1:hover{
+    transform: translateX(-65px);
+    transition-duration: 2s;
+}
+.booking-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+.booking-form{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 65%;
+    margin-left: 180px;
+ 
+    
+}
+.booking-content p{
+    color: wheat;
+    font-size: 19px;
+    background-color:#0000002e;
+    padding:15px;
+    border-radius: 8px;
+    
+    
+}
+.booking-content  p:hover{
+  transform: translate(65px);
+  transition-duration: 2s;
+    
+    
+}
+.booking-form h3{
+    margin: 10px 0px;
+    background-color: #003cbe;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 7px 17px rgb(34, 22, 22);
+    font-size: 30px;
+    
+}
+.booking-form  .input-group{
+    margin: 10px 0;
+}
+.booking-form  .calculations{
+    margin: 10px 0;
+}
+.booking-form  .calculations p{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.booking-form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.f-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp-width{
+    min-width: 300px;
+}
+.plus-minus-btn{
+    color: #3352F2;
+    font-size: 30px;
+    padding: 2px;
+    margin: 10px 5px 0px 0px;
+    word-spacing: 20px;
+}
+.booking-form .inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.btn-style{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color:  #003cbe;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.plus-minus-btn button{
+    font-size: 17px;
+    background-color: rgb(253, 253, 253);
+    border: none;
+    color: #003cbe;
+    padding: 10px;
+}
+
+#Congratulation-Area{
+    display: none;
+    background-color: white;
+    text-align: center;
+    padding: 150px 15px;
+    border-radius: 10px;
+}
+#Congratulation-Area i{
+    font-size: 100px;
+    color: #003cbe;
+}
+#Congratulation-Area h2{
+    color: #E33741;
+    margin: 10px;
+    font-size: 50px;;
+}
+
+#tryAgain-part{
+    display: none;
+    background-color: white;
+    text-align: center;
+    padding: 150px 15px;
+    border-radius: 10px;
+}
+#tryAgain-part i{
+    font-size: 50px;
+    color: #E33741;
+}
+#tryAgain-part h2{
+    color: #E33741;
+    margin: 10px;
+    font-size: 50px;;
